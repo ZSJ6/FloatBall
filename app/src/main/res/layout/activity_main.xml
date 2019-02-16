@@ -7,9 +7,9 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:background="@drawable/icon_ball"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/icon_float"
         android:layout_marginBottom="50dp"/>
 
     <Button
@@ -17,18 +17,18 @@
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginBottom="5dp"
-        android:background="#4d4d4d"
+        android:background="#4E2626"
         android:gravity="center"
         android:text="STRAT"
-        android:textColor="#ffffff"
+        android:textColor="#FDFDFD"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_quit"
         android:layout_width="140dp"
         android:layout_height="40dp"
-        android:layout_marginTop="5dp"
-        android:background="#4d4d4d"
+        android:layout_marginTop="20dp"
+        android:background="#4E2626"
         android:gravity="center"
         android:text="QUIT"
         android:textColor="#ffffff"
@@ -43,6 +43,6 @@
         android:lineSpacingExtra="2dp"
         android:text="@string/tip"
         android:textColor="#333333"
-        android:textSize="12sp" />
+        android:textSize="15sp" />
 
 </LinearLayout>
